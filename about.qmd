@@ -2,6 +2,7 @@
 title: "About Me"
 sidebar: false 
 ---
+[Download my CV (PDF)](files/cv.pdf){.btn .btn-primary}
 
 # Education
 
@@ -29,4 +30,4 @@ R, Quarto, Git, Python
 
 # Hobbies
 
-Motorcycles ,  BB , Dancing
+Motorcycles , BB , Dancing
