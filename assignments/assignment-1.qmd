@@ -12,6 +12,8 @@ My first assignment has two parts.
 
 ## (a) Video
 
+> **AI-assisted content:** The summary and the questions in this section were drafted with the help of ChatGPT and then reviewed/edited by me.
+
 ### Selected video
 
 **Title:** Data Science and Industrial Engineering Conversations – Mustafa Baydoğan & Erdi Daşdemir\
@@ -45,4 +47,86 @@ D) Making the final visualization more attractive\
 
 [^1]: Prompt: "Write a short English summary and create one open-ended and one multiple-choice question with answers for this video: https://www.youtube.com/watch?v=1Mvkn71dhaA"
 
-## (b)
+## (b) Data Task
+
+In this section, I used the `polls_us_election_2016` data set from the `dslabs` package and completed the required preprocessing steps.
+
+```{r}
+
+library(dslabs)
+library(dplyr)
+
+data("polls_us_election_2016")
+df <- polls_us_election_2016
+
+my_first <- "Ahmet"
+my_birth_year <- 2000
+
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+k
+```
+
+### Displaying `k` rows from the original data set
+
+```{r}
+if (k %% 2 == 0) {
+  head(df, k)
+} else {
+  tail(df, k)
+}
+```
+
+### Total number of missing values in the original data set
+
+```{r}
+total_na <- sum(is.na(df))
+total_na
+```
+
+### Number of missing values per column (top 8)
+
+```{r}
+na_per_column <- sort(colSums(is.na(df)), decreasing = TRUE)
+head(na_per_column, 8)
+```
+
+### Replacing missing values in a new data frame
+
+```{r}
+new_df <- df
+
+num_cols <- sapply(new_df, is.numeric)
+new_df[num_cols] <- lapply(new_df[num_cols], function(x) {
+  x[is.na(x)] <- my_birth_year + k
+  x
+})
+
+char_fac_cols <- sapply(new_df, function(x) is.character(x) || is.factor(x))
+new_df[char_fac_cols] <- lapply(new_df[char_fac_cols], function(x) {
+  x <- as.character(x)
+  x[is.na(x)] <- paste0(my_first, "_", k)
+  x
+})
+```
+
+### Displaying `k` rows from the new data frame
+
+```{r}
+if (k %% 2 == 0) {
+  head(new_df, k)
+} else {
+  tail(new_df, k)
+}
+```
+
+### Total number of missing values remaining in the new data frame
+
+```{r}
+sum(is.na(new_df))
+```
+
+### Checking whether any missing values remain
+
+```{r}
+anyNA(new_df)
+```
