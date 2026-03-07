@@ -10,6 +10,39 @@ title: "Assignment 1"
 
 My first assignment has two parts.
 
-## (a)
+## (a) Video
+
+### Selected video
+
+**Title:** Data Science and Industrial Engineering Conversations – Mustafa Baydoğan & Erdi Daşdemir\
+**Link:** <https://www.youtube.com/watch?v=1Mvkn71dhaA>
+
+### Brief summary
+
+-   The video discusses how data science intersects with industrial engineering and explains current industry expectations.
+-   It emphasizes the importance of following the correct workflow in data science projects: defining the business problem, collecting and preparing data, building a model, and turning results into decisions.
+-   The speakers explain that building a model alone is not enough; data preparation, choosing the right evaluation metrics, and interpreting results correctly are also essential.
+-   From a career perspective, the video highlights that industrial engineering students can create value in data science by combining statistics, optimization, programming, and communication skills.
+-   It also points out that the responsibilities of data analysts, data scientists, and data engineers may overlap depending on the company and the project.
+
+### Questions
+
+#### Open-ended question
+
+**Q:** What is the biggest advantage of someone with an industrial engineering background in data science projects? Explain with an example.\
+**A:** A person with an industrial engineering background has an advantage in defining the problem correctly, selecting meaningful performance metrics, and connecting the results to decision-making. For example, in a demand forecasting project, such a person would not only try to reduce prediction error but also consider business factors such as stockout cost, holding cost, and service level.
+
+#### Multiple-choice question
+
+**Q:** Which of the following is the most critical step that comes before building a model in a data science project?\
+A) Optimizing hyperparameters\
+B) Correctly defining the problem and preparing/cleaning the data\
+C) Choosing the most complex model\
+D) Making the final visualization more attractive\
+**Correct answer:** B\
+**Explanation:** In most cases, the success of a data science project depends heavily on the quality of the data and the accuracy of the problem definition. Even the best model cannot produce useful results if the input data or the objective is wrong.\
+*AI usage:* I used ChatGPT to help draft the summary and the questions.[^1]
+
+[^1]: Prompt: "Write a short English summary and create one open-ended and one multiple-choice question with answers for this video: https://www.youtube.com/watch?v=1Mvkn71dhaA"
 
 ## (b)

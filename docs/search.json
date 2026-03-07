@@ -26,5 +26,69 @@
     "title": "About Me",
     "section": "Internships",
     "text": "Internships\n\nFirm Transvaro, position Intern , year 2023\nFirm Otest Bilter Center, position Intern year 2024"
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Our Course Project",
+    "section": "",
+    "text": "I’m honored to be a member of the [group name] project team.\nBelow, you’ll find a brief summary of our project. To access a detailed project description, please go to https://[your-project-url].\nSummary\n[provide a biref summary of your project]\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "My Assignments",
+    "section": "",
+    "text": "On this page, I showcase the assignment I conducted for the [term and 2026, e.g. Spring 2026] EMU430 Data Analytics course.\nPlease use the left menu to navigate through my assignments.\nThe most recent update to this page was made on 7/03/2026.\n\n\n\n Back to top",
+    "crumbs": [
+      "My Assignments"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html",
+    "href": "assignments/assignment-1.html",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts.\n\n\n\n\nTitle: Data Science and Industrial Engineering Conversations – Mustafa Baydoğan & Erdi Daşdemir\nLink: https://www.youtube.com/watch?v=1Mvkn71dhaA\n\n\n\n\nThe video discusses how data science intersects with industrial engineering and explains current industry expectations.\nIt emphasizes the importance of following the correct workflow in data science projects: defining the business problem, collecting and preparing data, building a model, and turning results into decisions.\nThe speakers explain that building a model alone is not enough; data preparation, choosing the right evaluation metrics, and interpreting results correctly are also essential.\nFrom a career perspective, the video highlights that industrial engineering students can create value in data science by combining statistics, optimization, programming, and communication skills.\nIt also points out that the responsibilities of data analysts, data scientists, and data engineers may overlap depending on the company and the project.\n\n\n\n\n\n\nQ: What is the biggest advantage of someone with an industrial engineering background in data science projects? Explain with an example.\nA: A person with an industrial engineering background has an advantage in defining the problem correctly, selecting meaningful performance metrics, and connecting the results to decision-making. For example, in a demand forecasting project, such a person would not only try to reduce prediction error but also consider business factors such as stockout cost, holding cost, and service level.\n\n\n\nQ: Which of the following is the most critical step that comes before building a model in a data science project?\nA) Optimizing hyperparameters\nB) Correctly defining the problem and preparing/cleaning the data\nC) Choosing the most complex model\nD) Making the final visualization more attractive\nCorrect answer: B\nExplanation: In most cases, the success of a data science project depends heavily on the quality of the data and the accuracy of the problem definition. Even the best model cannot produce useful results if the input data or the objective is wrong.\nAI usage: I used ChatGPT to help draft the summary and the questions.1",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a-video",
+    "href": "assignments/assignment-1.html#a-video",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "Title: Data Science and Industrial Engineering Conversations – Mustafa Baydoğan & Erdi Daşdemir\nLink: https://www.youtube.com/watch?v=1Mvkn71dhaA\n\n\n\n\nThe video discusses how data science intersects with industrial engineering and explains current industry expectations.\nIt emphasizes the importance of following the correct workflow in data science projects: defining the business problem, collecting and preparing data, building a model, and turning results into decisions.\nThe speakers explain that building a model alone is not enough; data preparation, choosing the right evaluation metrics, and interpreting results correctly are also essential.\nFrom a career perspective, the video highlights that industrial engineering students can create value in data science by combining statistics, optimization, programming, and communication skills.\nIt also points out that the responsibilities of data analysts, data scientists, and data engineers may overlap depending on the company and the project.\n\n\n\n\n\n\nQ: What is the biggest advantage of someone with an industrial engineering background in data science projects? Explain with an example.\nA: A person with an industrial engineering background has an advantage in defining the problem correctly, selecting meaningful performance metrics, and connecting the results to decision-making. For example, in a demand forecasting project, such a person would not only try to reduce prediction error but also consider business factors such as stockout cost, holding cost, and service level.\n\n\n\nQ: Which of the following is the most critical step that comes before building a model in a data science project?\nA) Optimizing hyperparameters\nB) Correctly defining the problem and preparing/cleaning the data\nC) Choosing the most complex model\nD) Making the final visualization more attractive\nCorrect answer: B\nExplanation: In most cases, the success of a data science project depends heavily on the quality of the data and the accuracy of the problem definition. Even the best model cannot produce useful results if the input data or the objective is wrong.\nAI usage: I used ChatGPT to help draft the summary and the questions.1",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#footnotes",
+    "href": "assignments/assignment-1.html#footnotes",
+    "title": "Assignment 1",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nPrompt: “Write a short English summary and create one open-ended and one multiple-choice question with answers for this video: https://www.youtube.com/watch?v=1Mvkn71dhaA”↩︎",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-2.html",
+    "href": "assignments/assignment-2.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Assignment 2"
+    ]
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "This page is under construction.\n\n\n\n Back to top"
   }
 ]

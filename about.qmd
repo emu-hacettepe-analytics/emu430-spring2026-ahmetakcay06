@@ -2,6 +2,7 @@
 title: "About Me"
 sidebar: false 
 ---
+
 [Download my CV (PDF)](files/cv.pdf){.btn .btn-primary}
 
 # Education
